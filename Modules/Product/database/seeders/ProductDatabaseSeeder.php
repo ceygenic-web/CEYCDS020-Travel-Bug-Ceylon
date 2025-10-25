@@ -14,11 +14,11 @@ class ProductDatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            CategorySeeder::class,
-            BrandSeeder::class,
-            AttributeSeeder::class,
-            ProductSeeder::class,
-            PromotionSeeder::class,
+            // CategorySeeder::class,
+            // BrandSeeder::class,
+            // AttributeSeeder::class,
+            // ProductSeeder::class,
+            // PromotionSeeder::class,
         ]);
     }
 }
